@@ -1,23 +1,16 @@
 ## Project: Build a Traffic Sign Recognition Program
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-### Overview
+This is the 2nd-time submission. In this submission, the main modifications are as follows:
 
-In this project, you will use what you've learned about deep neural networks and convolutional neural networks to classify traffic signs. You will train a model so it can decode traffic signs from natural images by using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model is trained, you will then test your model program on new images of traffic signs you find on the web, or, if you're feeling adventurous pictures of traffic signs you find locally!
+1. Images are displayed in much neater way. As suggested by the reviewer, the display of exemplary images, the bar plot and the final testing results exhibition are all modified.
 
-### Dependencies
-This lab requires:
+2. The gray transformation is tried, and histogram equalization and contrast stretch are implemented. Based on experiments, the contrast stretch is a little better.
 
-* [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
+3. Geometric transformation based training data augmentation is introduced. The training dataset has scaled a lot.
 
-The lab enviroment can be created with CarND Term1 Starter Kit. Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
+4. Based on the augmented dataset, better testing accuracy is achieved, not only on testing set, but also on wild dataset.
 
-### Dataset
+5. More explanations are given about the model training and parameter selection. The CNN structure is also given.
 
-1. [Download the dataset](https://d17h27t6h515a5.cloudfront.net/topher/2016/November/581faac4_traffic-signs-data/traffic-signs-data.zip). This is a pickled dataset in which we've already resized the images to 32x32.
-2. Clone the project and start the notebook.
-```sh
-git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
-cd CarND-Traffic-Sign-Classifier-Project
-jupyter notebook Traffic_Sign_Classifier.ipynb
-```
-3. Follow the instructions in the `Traffic_Sign_Recognition.ipynb` notebook.
+## Acknowledge
+
+Thanks very much for the good job of the reviewer. And I also appreciate the others job I adopted in this project.
