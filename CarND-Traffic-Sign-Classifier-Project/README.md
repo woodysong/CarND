@@ -13,4 +13,4 @@ This is the 2nd-time submission. In this submission, the main modifications are 
 
 ## Acknowledgement
 
-Thanks very much for the good job of the reviewer. And I also appreciate the others job I adopted in this project.
+Thanks very much for the good job of the reviewer. And I also appreciate the other authors' job I adopted in this project.
