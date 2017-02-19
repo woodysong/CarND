@@ -11,6 +11,6 @@ This is the 2nd-time submission. In this submission, the main modifications are 
 
 5. More explanations are given about the model training and parameter selection. The CNN structure is also given.
 
-## Acknowledge
+## Acknowledgement
 
 Thanks very much for the good job of the reviewer. And I also appreciate the others job I adopted in this project.
